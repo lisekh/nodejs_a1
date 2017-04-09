@@ -1,7 +1,7 @@
 {
   "name": "a_quote_a_day",
   "version": "0.0.1",
-  "description": "NodeJS assignement 1",
+  "description": "NodeJS assignement 1. Deployed to Heroku: https://nodejs-a1-quotes.herokuapp.com/",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
