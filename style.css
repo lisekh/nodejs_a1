@@ -1,0 +1,12 @@
+#quote {
+    color:green;
+    font-size:5em;
+    text-align:center;
+    padding:2em 0 1em 0;
+}
+
+#author {
+    text-align:center;
+    font-size:2em;
+    color:darkgray;
+}
