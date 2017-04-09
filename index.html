@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>A quote a day</title>
+  <meta name="description" content="A quote a day">
+  <meta name="Lise Haugen" content="NodeJS assignment 1">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+<section id="quote">
+
+</section>
+
+  <script>
+  var quote_array = [
+  "Hello 1",
+  "Hello 2", 
+  "Hello 3",
+  "Hello 4",
+  "Hello 5",
+  "Hello 6",
+  "Hello 7", 
+  "Hello 8",
+  "Hello 9",
+  "Hello 10"
+  ];
+
+  var selectedQuote = (Math.random() * 10)+1;
+  console.log("Selected quote is number: " + selectedQuote);
+
+  document.getElementById('quote').innerHTML(quote_array[selectedQuote]);
+  </script>
+</body>
+</html>
