@@ -22,45 +22,44 @@
         font-size:5em;
         text-align:center;
         padding:2em 0 1em 0;"></section>
-    <section id="author" style="text-align:center;
+        <section id="author" style="text-align:center;
         font-size:2em;
         color:darkgray;"></section>
 
-    <script>
-        var quote_array = [
-            "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.",
-            "Don't cry because it's over, smile because it happened.",
-            "I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.",
-            "To live is the rarest thing in the world. Most people exist, that is all.",
-            "There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.",
-            "Life isn't about finding yourself. Life is about creating yourself.",
-            "Life is like riding a bicycle. To keep your balance, you must keep moving.",
-            "Life's under no obligation to give us what we expect.",
-            "Life is to be enjoyed, not endured.",
-            "The more I see, the less I know for sure.",
-            "Do I not destroy my enemies when I make them my friends?"
-        ];
+            <script>
+                var quote_array = [
+                    "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.",
+                    "Don't cry because it's over, smile because it happened.",
+                    "I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.",
+                    "To live is the rarest thing in the world. Most people exist, that is all.",
+                    "There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.",
+                    "Life isn't about finding yourself. Life is about creating yourself.",
+                    "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+                    "Life's under no obligation to give us what we expect.",
+                    "Life is to be enjoyed, not endured.",
+                    "The more I see, the less I know for sure.",
+                    "Do I not destroy my enemies when I make them my friends?"
+                ];
 
-        var author_array = [
-            "Steve Jobs",
-            "Dr. Seuss",
-            "Marilyn Monroe",
-            "Oscar Wilde",
-            "Albert Einstein",
-            "George Bernard Shaw",
-            "Albert Einstein",
-            "Margaret Mitchell",
-            "Gordon B. Hinckley",
-            "John Lennon",
-            "Abraham Lincoln"
-        ];
+                var author_array = [
+                    "Steve Jobs",
+                    "Dr. Seuss",
+                    "Marilyn Monroe",
+                    "Oscar Wilde",
+                    "Albert Einstein",
+                    "George Bernard Shaw",
+                    "Albert Einstein",
+                    "Margaret Mitchell",
+                    "Gordon B. Hinckley",
+                    "John Lennon",
+                    "Abraham Lincoln"
+                ];
 
-        var selectedQuote = Math.floor((Math.random() * 10) + 1);
+                var selectedQuote = Math.floor((Math.random() * 10) + 1);
 
-        document.getElementById('quote').innerHTML = quote_array[selectedQuote];
-        document.getElementById('author').innerHTML = " - " + author_array[selectedQuote];
-        
-    </script>
+                document.getElementById('quote').innerHTML = quote_array[selectedQuote];
+                document.getElementById('author').innerHTML = " - " + author_array[selectedQuote];
+            </script>
 </body>
 
 </html>
