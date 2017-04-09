@@ -1,0 +1,22 @@
+{
+  "name": "a_quote_a_day",
+  "version": "0.0.1",
+  "description": "NodeJS assignement 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisekh/nodejs_a1.git"
+  },
+  "author": "Lise Haugen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lisekh/nodejs_a1/issues"
+  },
+  "homepage": "https://github.com/lisekh/nodejs_a1#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
